@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+body {
+    background-color: black;
+    color: red;
+    font-family: 'DS-Digital', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}                                              
+
+.container {
+    text-align: center;
+}
+
+.message {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.countdown {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digit {
+    font-size: 6rem;
+    display: inline-block;
+}
+
+span {
+    font-size: 6rem;
+    margin: 0 10px;
+}
+
+
